@@ -1,6 +1,12 @@
 p {
-  background-color: #ffffff;
-  font-size: 30px;
+  background-color: #c7d9fa;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  background-color: #46c1fa;
 }
 
 body {
@@ -44,7 +50,27 @@ body {
 
 .big-image {
   width: auto;
-  height: 700px;
+  height: 600px;
+}
+
+.medium-image {
+  width: auto;
+  height: 300px
+}
+
+.wide-medium-image {
+  width: 400px;
+  height: auto;
+}
+
+.small-image {
+  width: auto;
+  height: 200px;
+}
+
+.long-small-image {
+  width: 500px;
+  height: auto;
 }
 
 .image-border {
@@ -53,12 +79,25 @@ body {
   border-style: solid;
 }
 
+.misc-divider {
+  padding-bottom: 50px;
+}
+
+.head-divider {
+  padding: 15px 0xp 15px 0px;
+}
+
+.text-divider {
+  padding: 10px 0px 10px 0px;
+}
+
 #title-font {
   font-family: cursive;
   color: rgb(63, 53, 46);
   font-size: 40px;
 }
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 1000px) {
   p {
    font-size: 15px;
   }
@@ -72,23 +111,49 @@ body {
    height: 60%;
    width: 60%;
   }
+  .medium-image {
+    width: 70%;
+    height: 70%;
+  }
+  .small-image{
+    width: 90%;
+    height: 90%;
+  }
+  .image-border {
+    border-color: black;
+    border-width: 6px;
+    border-style: solid;
+}
 }
 
 @media only screen and (max-width: 600px) {
-   p {
+  p {
     font-size: 15px;
-   }
-   h1 {
+  }
+  h1 {
     font-size: 15px;
-   }
-   li {
+  }
+  li {
     font-size: 15px;
-   }
-   .big-image {
+  }
+  .big-image {
     height: 50%;
     width: 50%;
-   }
-   .sidebar {
+  }
+  .medium-image {
+    width: 60%;
+    height: 60%;
+  }  
+  .small-image{
+    width: 110%;
+    height: 110%;
+  }
+  .image-border {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .sidebar {
     position: sticky;
     color: black;
     width: 100%;
