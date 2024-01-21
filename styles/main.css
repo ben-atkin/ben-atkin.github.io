@@ -9,6 +9,12 @@ h2 {
   background-color: #46c1fa;
 }
 
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #46c1fa;
+}
+
 body {
   background-color: #C3ECFF;
   text-align: center;
@@ -95,6 +101,10 @@ body {
   font-family: cursive;
   color: rgb(63, 53, 46);
   font-size: 40px;
+}
+
+#list {
+  text-align: left;
 }
 
 @media only screen and (max-width: 1000px) {
