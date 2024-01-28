@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="../styles/main.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+      <title>Javascript Fundamentals</title>
+    </head>
+    <body>
+      <h1 id="title-font" class="topbar">Javascript Fundamentals</h1>
+
+      <div>
+        <div class="sidebar">Links
+          <ul id="list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Sagg08DrO5U&ab_channel=Setanta">Gandalf Sax Guy</a></li>
+            <li><a href="te-houtaewa-template.html">Te Houtaewa Template</a></li>
+            <li><a href="html-css.html">Margin vs Border vs Padding</a></li>
+            <li><a href="identity-values.html">Identity and Values</a></li>
+            <li><a href="learning-plan.html">Learning Plan</a></li>
+            <li><a href="emotional-intelligence.html">Emotional Intelligence</a></li>
+            <li><a href="javascript-dom.html">Javascript Fundamentals</a></li>
+        </ul>
+        </div>
+        <div class="main">
+          <div class="content">
+            <h3>Javascript and its relationship with HTML and CSS</h3>
+
+            <p>
+              A good analogy to describe their relationship is a cafe. Imagine the building itself stripped bare bones, just the walls and roof, this is the HTML of the cafe.
+              Then the style of the cafe, the types of chairs and tables they use, the cutlery they have, even the layout of the furniture. This is what I would 
+              call the CSS of the cafe. Then the actual employees inside the cafe that take orders, cook food, make hot drinks and serve customers are the Javascript.
+            </p>
+
+            <h3>Explaining "Control Flow" and "Loops"</h3>
+
+            <p>
+              For starters Control Flow is the order in which a computer executes statements, from top to bottom, left to right. As if you were reading a book, a computer 
+              will read code the exact same way.
+            </p>
+            <p>
+              Then we have Loops, loops are just how they sound, they loop a certain action over and over again until specified otherwise. For example a loop in Javascript 
+              is the same as scrubbing a really grubby pan, when you start scrubbing you have the intention of cleaning it, and after each stroke of the brush you look
+              at where it was just covering to see how well you did, and if there is still muck on the pan you go back over it, and you keep scrubbing until it's clean.
+            </p>
+
+            <h3>Describing the DOM</h3>
+
+            <p>
+              The DOM or "Document Object Model" can be used to represent all of the content on a webpage, giving it a structure that can make it easier for a developer to 
+              find something specific or just give someone a better understanding of what is happening on a webpage. It is also used so that all programming languages 
+              can interact with the webpage because of its simple hierarchy, it looks like a family tree but instead of people its objects in a document. 
+              Here's an image for representation.
+            </p>
+
+            <img src="../images/DOM-Example.png" class="big-image">
+
+            <p>
+              An example of how you might interact with the DOM is if you press the “f12” key on your keyboard, it brings up the DevTools. You can use this to interact with 
+              certain elements of a webpage. Let's try it for ourselves! Open up the DevTools, and it should automatically open on the Elements tab, it should look like this…
+            </p>
+
+            <img src="../images/DevToolsExample1.PNG" class="wide-medium-image">
+
+            <p>
+              Now click on the "body" element and open it up, you should then see this…
+            </p>
+
+            <img src="../images/DevToolsExample2.PNG" class="wide-medium-image">
+
+            <p>
+              Now the inner HTML of the "h1" element (the text), change “Javascript Fundamentals” to “Hello World!”. And it should update at the top of your screen. Congrats, 
+              you've just become a pro at interacting with the DOM.
+            </p>
+
+            <h3>Arrays and Objects</h3>
+
+            <p>
+              Arrays consist of a multitude of items in a single variable, it makes it easy to access certain items by using their numerical position in the list 
+              counting from [0], [1], [2], and up! They can store objects, strings, values, booleans and even other arrays. An example of what a array may look 
+              like and their numerical positions:
+            </p>
+
+            <img src="../images/ArrayExample.PNG" class="long-small-image">
+
+            <p>
+              Objects are typically used to represent something. And by something I mean anything, it could be a road, a phone, a whiteboard marker, or anything 
+              else you can think of. Each object has properties inside of it, consisting of a key and a value. For example:
+            </p>
+
+            <img src="../images/ObjectExample.png" class="small-image">
+
+            <h3>Functions</h3>
+
+            <p>
+              A function is a set of instructions that is designed to perform a certain task. They can be very helpful, for example we can use them to help us 
+              figure the total of two separate values.
+            </p>
+
+            <img src="../images/FunctionExample.PNG" class="small-image">
+
+            <p>
+              As we can see here we have defined a function called “addNumbers”, with the parameter of “num1, num2”. Now the function wants to return the total of 
+              “num1 + num2”, right below the function we have defined a variable to set the values of the parameter so the function has an input to pull from to get 
+              an output. And we'll use console.log() so we can actually see if it works.
+            </p>
+
+            <img src="../images/FunctionExample2.png" class="wide-medium-image">
+
+            <p>
+              As you can see in the DevTools console it has logged the total of those two numbers accurately as 3.
+            </p>
+
+            <p>
+              I hope this post has helped you understand a little more about the Javascript Fundamentals, there are bound to be errors as I am new to Javascript, so 
+              make sure to use Google if something doesn’t make sense to you. Remember, Google is your best friend!
+            </p>
+          </div>
+        </div>
+    </body>
+</html>
