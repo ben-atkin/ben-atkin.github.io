@@ -102,6 +102,51 @@ body {
   text-decoration: underline;
 }
 
+.grid-layout {
+  text-align: center;
+  padding: 15px;
+  display: grid;
+  grid-template-areas: 
+    'header1 header1 header1 header2 header2 header2'
+    'left1 left1 left1 right1 right1 right1'
+    'left2 left2 left2 right2 right2 right2'
+    'left3 left3 left3 right3 right3 right3'
+    'left4 left4 left4 right4 right4 right4'
+    'left5 left5 left5 right5 right5 right5';
+    background-color: #46c1fa;
+    gap: 15px;
+}
+
+/* NEED MORE */
+
+.grid-header {
+  background-color: #eaf6fc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.grid-content {
+  background-color: #eaf6fc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+.header1 { grid-area: header1; }
+.header2 { grid-area: header2; }
+.left1 { grid-area: left1; }
+.right1 { grid-area: right1; }
+.left2 { grid-area: left2; }
+.right2 { grid-area: right2; }
+.left3 { grid-area: left3; }
+.right3 { grid-area: right3; }
+.left4 { grid-area: left4; }
+.right4 { grid-area: right4; }
+.left5 { grid-area: left5; }
+.right5 { grid-area: right5; }
+
 #title-font {
   font-family: cursive;
   color: rgb(63, 53, 46);
